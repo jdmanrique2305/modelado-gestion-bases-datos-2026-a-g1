@@ -1,1 +1,18 @@
-adasdadsadas
+-Migra de archivos planos a un SGBD cuando:
+Los datos crecen y el rendimiento empeora.
+Varias personas o procesos necesitan acceder y escribir a la vez.
+Requieres consultas complejas o relaciones entre datos.
+Necesitas integridad, seguridad, permisos y respaldos automáticos.
+Debes escalar el sistema de forma confiable.
+
+-Cuándo la cantidad de registros es bastante amplia. 
+
+Cuando la cantidad de registros es suficientemente amplia como para que los archivos planos comiencen a afectar el rendimiento y la gestión de los datos.
+
+-Cuándo son muchas personas las que manipulan de los datos
+
+Cuando muchas personas manipulan los datos y se requiere acceso concurrente seguro.
+
+-Latencia de respuesta cuando se desea consultar cierta información
+
+Cuando la latencia de respuesta aumenta al consultar información, indicando que los archivos planos ya no ofrecen un acceso eficiente.
