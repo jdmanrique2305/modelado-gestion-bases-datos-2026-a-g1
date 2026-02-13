@@ -1,1 +1,21 @@
-Modelado de Base de Datos
+¿Qué pasaría si no definimos correctamente las claves de cada entidad desde el inicio?
+
+No habría identificación única de estudiantes, asignaturas o grupos.
+Aparecerían duplicados y datos inconsistentes.
+Sería difícil relacionar entidades como Matrícula = Estudiante / Grupo.
+El modelo perdería claridad y habría retrabajo para corregirlo más adelante.
+
+¿Qué ventajas aporta tener identificadas las entidades antes de pasar al diagrama ER formal?
+
+Permite saber qué información se debe almacenar (ej: estudiante, asignatura, grupo, matrícula).
+Facilita reconocer atributos clave antes de formalizar relaciones.
+Hace más claro decidir qué será clave única en cada entidad.
+Estructura el modelo conceptual, haciendo el ER más rápido y ordenado.
+
+¿Qué información adicional consideras crítica en un sistema académico que aún no hemos modelado?
+
+Docente (ya se menciona en Grupo).
+Programa académico (carreras o planes).
+Periodo académico (semestre, año).
+Horarios y aulas.
+Notas o evaluaciones.
