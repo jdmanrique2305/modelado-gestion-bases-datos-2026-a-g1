@@ -1,0 +1,11 @@
+JUSTIFICACIÓN GENERAL DEL MODELO
+
+Los datos como nombres, códigos y fechas se organizan para generar información útil en la toma de decisiones académicas.
+
+La relación entre Estudiante y Curso es muchos a muchos, por lo que se resuelve mediante la entidad intermedia Matrícula.
+
+La relación entre Docente y Curso es uno a muchos, ya que un docente puede dictar varios cursos.
+
+La generalización Persona → Estudiante/Docente es total porque toda persona registrada tiene un rol dentro del sistema.
+
+Además, es disjoint porque cada persona solo puede cumplir un único rol.
